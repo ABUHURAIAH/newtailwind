@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Ionicons for modern browsers -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.2.1/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <!-- Ionicons for legacy browsers -->
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.2.1/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>image gallery</title>
+  </head>
+  <body>
+    <!-- body container -->
+    <div
+      class="bg-cyan-100 flex flex-col items-center justify-center min-h-screen"
+    >
+      <!-- Card Container -->
+      <div
+        class="bg-white rounded-2xl py-12 md:py-44 px-12 md:px-36 shadow-xl flex flex-col space-y-12 my-4"
+      >
+        <!-- inbox box -->
+        <div
+          class="flex flex-col md:flex-row md:justify-end items-center space-y-2 md:space-y-0 md:space-x-6 text-xl"
+        >
+          <!-- 01 box -->
+          <div class="group">
+            <a href="#" class="">Vector</a>
+            <!-- border -->
+            <div
+              class="border-b border-b-2 border-b-black opacity-0 group-hover:opacity-100 my-2 transform duration-300"
+            >
+              <!-- empty -->
+            </div>
+          </div>
+          <!-- 02 box -->
+          <div class="group">
+            <a href="#" class="">Illustration</a>
+            <!-- border -->
+            <div
+              class="border-b border-b-2 border-b-black opacity-0 group-hover:opacity-100 my-2 transform duration-300"
+            >
+              <!-- empty -->
+            </div>
+          </div>
+          <!-- 03 box -->
+          <div class="group">
+            <a href="#" class="">Images</a>
+            <!-- border -->
+            <div
+              class="border-b border-b-2 border-b-black opacity-0 group-hover:opacity-100 my-2 transform duration-300"
+            >
+              <!-- empty -->
+            </div>
+          </div>
+          <!-- 04 box -->
+          <div class="group">
+            <a href="#" class="">Icons</a>
+            <!-- border -->
+            <div
+              class="border-b border-b-2 border-b-black opacity-0 group-hover:opacity-100 my-2 transform duration-300"
+            >
+              <!-- empty -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Searching area -->
+        <div
+          class="flex flex-col md:flex-row md:justify-between space-y-4 md:space-y-0"
+        >
+          <!-- search box -->
+          <div class="flex items-center justify-center border-b">
+            <!-- input search -->
+            <input
+              type="text"
+              placeholder="Search"
+              class=" p-4 placeholder:text-gray-400 outline-none w-full"
+            />
+            <!-- icons image -->
+            <ion-icon class="text-gray-400 h-12 w-12" name="search-outline"></ion-icon>
+          </div>
+          <button
+            class="bg-black text-center text-white text-bold text-xl rounded-xl py-4 px-12 hover:bg-white hover:text-black border border-black"
+          >
+            Upload
+          </button>
+        </div>
+
+        <!-- Image Gallery -->
+        <div class="grid md:grid-cols-5 gap-4 ">
+          <!-- image 1 -->
+           <div class="relative group">
+             <img src="images/image1.jpg" alt="" class="h-56 md:h-44" />
+             <!-- hidden box -->
+              <div class="absolute bottom-0 bg-black opacity-0 text-white p-2 px-4 w-full group-hover:opacity-50 transform duration-300 cursor-pointer flex justify-between items-center">
+                <!-- matter -->
+                 <div class="">
+                  <h1 class="text-lg">
+                    Abstract Paintin
+                  </h1>
+                  <h2>
+                    324 Likes 55 Shares
+                  </h2>
+                 </div>
+                 <!-- icon -->
+                  <img src="images/bookmark.svg" alt="">
+              </div>
+           </div>
+          <!-- image 2 -->
+           <div class="relative group">
+             <img src="images/image2.jpg" alt="" class="h-56 md:h-44" />
+             <!-- hidden box -->
+              <div class="absolute bottom-0 bg-black opacity-0 text-white p-2 px-4 w-full group-hover:opacity-50 transform duration-300 cursor-pointer flex justify-between items-center">
+                <!-- matter -->
+                 <div class="">
+                  <h1 class="text-lg">
+                    Abstract Paintin
+                  </h1>
+                  <h2>
+                    324 Likes 55 Shares
+                  </h2>
+                 </div>
+                 <!-- icon -->
+                  <img src="images/bookmark.svg" alt="">
+              </div>
+           </div>
+          <!-- image 1 -->
+           <div class="relative group">
+             <img src="images/image3.jpg" alt="" class="h-56 md:h-44" />
+             <!-- hidden box -->
+              <div class="absolute bottom-0 bg-black opacity-0 text-white p-2 px-4 w-full group-hover:opacity-50 transform duration-300 cursor-pointer flex justify-between items-center">
+                <!-- matter -->
+                 <div class="">
+                  <h1 class="text-lg">
+                    Abstract Paintin
+                  </h1>
+                  <h2>
+                    324 Likes 55 Shares
+                  </h2>
+                 </div>
+                 <!-- icon -->
+                  <img src="images/bookmark.svg" alt="">
+              </div>
+           </div>
+          <!-- image 4 -->
+           <div class="relative group">
+             <img src="images/image4.jpg" alt="" class="h-56 md:h-44" />
+             <!-- hidden box -->
+              <div class="absolute bottom-0 bg-black opacity-0 text-white p-2 px-4 w-full group-hover:opacity-50 transform duration-300 cursor-pointer flex justify-between items-center">
+                <!-- matter -->
+                 <div class="">
+                  <h1 class="text-lg">
+                    Abstract Paintin
+                  </h1>
+                  <h2>
+                    324 Likes 55 Shares
+                  </h2>
+                 </div>
+                 <!-- icon -->
+                  <img src="images/bookmark.svg" alt="">
+              </div>
+           </div>
+          <!-- image 5 -->
+           <div class="relative group">
+             <img src="images/image5.jpg" alt="" class="h-56 md:h-44" />
+             <!-- hidden box -->
+              <div class="absolute bottom-0 bg-black opacity-0 text-white p-2 px-4 w-full group-hover:opacity-50 transform duration-300 cursor-pointer flex justify-between items-center">
+                <!-- matter -->
+                 <div class="">
+                  <h1 class="text-lg">
+                    Abstract Paintin
+                  </h1>
+                  <h2>
+                    324 Likes 55 Shares
+                  </h2>
+                 </div>
+                 <!-- icon -->
+                  <img src="images/bookmark.svg" alt="">
+              </div>
+           </div>
+          <!-- image 6 -->
+           <div class="relative group">
+             <img src="images/image6.jpg" alt="" class="h-56 md:h-44" />
+             <!-- hidden box -->
+              <div class="absolute bottom-0 bg-black opacity-0 text-white p-2 px-4 w-full group-hover:opacity-50 transform duration-300 cursor-pointer flex justify-between items-center">
+                <!-- matter -->
+                 <div class="">
+                  <h1 class="text-lg">
+                    Abstract Paintin
+                  </h1>
+                  <h2>
+                    324 Likes 55 Shares
+                  </h2>
+                 </div>
+                 <!-- icon -->
+                  <img src="images/bookmark.svg" alt="">
+              </div>
+           </div>
+
+
+        
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

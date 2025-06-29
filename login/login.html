@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Log in</title>
+  </head>
+  <body>
+    <!-- container -->
+     <div class="bg-pink-200 flex justify-center min-h-screen">
+      <!-- card -->
+       <div class=" w-6xl flex flex-col md:flex-row m-4  shadow-xl">
+        <!-- matter box -->
+         <div class="p-8  md:pt-24 bg-white rounded-xl md:px-20">
+          <!-- log in box -->
+           <div class=" relative">
+             <h1 class="font-bold text-3xl font-serif">
+              Log In 
+             </h1>
+             <p class="max-w-sm text-lg text-gray-700 my-8">
+              Log in to your account to upload or download pictures, videos or music.
+             </p>
+             <!-- cross mark -->
+              <div class="absolute right-0 -top-2 md:hidden text-4xl">
+                &Cross;
+              </div>
+           </div>
+           <!-- email box -->
+            <div class="w-full">
+              <input type="text" placeholder="Enter your email address" class="border outline-none p-4 placeholder:text-gray-400 w-full">
+            </div>
+            <!-- button box -->
+             <div class="flex flex-col md:flex-row md:justify-between my-6">
+              <!-- button 1 -->
+               <button class="text-center p-4 text-lg text-blue-300">
+                Forgot password
+               </button>
+              <!-- button 2 -->
+               <button class="text-center px-8 py-4 text-lg text-white font-bold bg-blue-600 rounded-lg">
+                Next &rightarrow;
+               </button>
+             </div>
+             <!-- optional box -->
+              <div class="border-t border-t-gray-300 text-gray-600 text-center p-8">
+                or log in with
+              </div>
+              <!-- social media box -->
+               <div class="flex flex-col md:flex-row space-y-8 md:space-y-0 md:justify-between">
+                <!-- button 1 -->
+                 <div class="flex justify-center items-center space-x-4 p-4 border border-gray-399">
+                  <!-- icon -->
+                   <img src="images/facebook.png" alt="" class="h-12">
+                   <h1 class="text-xl">
+                    Facebook
+                   </h1>
+                 </div>
+                <!-- button 2 -->
+                 <div class="flex justify-center items-center space-x-4 p-4 border border-gray-399">
+                  <!-- icon -->
+                   <img src="images/google.png" alt="" class="h-12">
+                   <h1 class="text-xl">
+                    Google
+                   </h1>
+                 </div>
+               </div>
+         </div>
+
+        <!-- image box -->
+         <div class="hidden md:block relative">
+          <img src="images/image.jpg" alt="" class="h-screen">
+
+           <!-- cross mark -->
+              <div class="absolute right-5 top-5 h-12 w-12 rounded-full text-center bg-white text-4xl">
+                &Cross;
+              </div>
+         </div>
+       </div>
+     </div>
+  </body>
+</html>

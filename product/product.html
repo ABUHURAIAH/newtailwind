@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Product Model</title>
+  </head>
+  <body>
+    <!-- container -->
+    <div class="bg-cyan-200 flex justify-center min-h-screen items-center">
+      <!-- card -->
+      <div class="bg-white rounded-xl m-4 p-6 flex flex-col md:flex-row space-y-8 md:space-y-0 md:p-24 md:space-x-12 px-6">
+        <!-- image box -->
+        <div class="flex justify-center">
+          <img src="images/headphone.png" alt="" class="w-72 h-60  transform hover:scale-105 duration-300" />
+        </div>
+        <!-- Matter box -->
+        <div class="flex flex-col space-y-4 ">
+          <!-- info box -->
+          <div class="flex flex-col space-y-4 text-center md:text-start">
+            <a class="bg-black rounded-xl p-2 text-white mx-auto md:mx-0 md:w-fit" href="#"> Free Shipping</a>
+
+            <p class=" text-xl  w-72 mx-auto md:mx-0">
+              Razer Kraken Kitty Edt Gaming Headset Quartz
+            </p>
+
+            <h1 class="text-xl line-through">
+              $799
+            </h1>
+
+
+            <h1 class="text-6xl font-bold">
+              $599
+            </h1>
+
+
+            <p class="text-sm text-gray-600">
+              This offer is valid until April 3rd or as long as stock lasts!
+            </p>
+          </div>
+          <!-- cart box  -->
+           <div class="bg-blue-800 text-center text-xl text-white p-4 rounded-xl cursor-pointer relative group">
+            Add to cart
+
+            <div class="bg-blue-400 w-full text-center text-xl text-white p-4 rounded-xl cursor-pointer absolute -top-1 left-0 group-hover:top-0 group-hover:bg-blue-800 duration-300">
+            Add to cart
+           </div>
+           </div>
+          <!-- spin box icon -->
+           <div class="flex space-x-4">
+            <!-- spin box -->
+             <!-- matter -->
+              <p class="text-lg text-gray-800">
+                50+ pcs. in stock
+              </p>
+           </div>
+          <!-- button box -->
+           <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:justify-between md:space-x-12">
+            <!-- button 1 -->
+            <div class="border rounded-xl flex justify-center items-center border-gray-400 p-2 space-x-4 px-8 cursor-pointer duration-300 hover:shadow-lg ">
+              <img src="images/weight.png" alt="" class="w-12">
+              <h1 class="text-gray-600 text-xl">
+                Add to cart
+              </h1>
+            </div>
+            <!-- button 2-->
+            <div class="border rounded-xl flex justify-center items-center border-gray-400 p-2 space-x-4 px-8 cursor-pointer duration-300 hover:shadow-lg">
+              <img src="images/heart.png" alt="" class="w-12">
+              <h1 class="text-gray-600 text-xl">
+                Add to cart
+              </h1>
+            </div>
+           </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
