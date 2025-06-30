@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.col {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-image: url("../images/bg-pattern-quotation.svg");
+  width: 200px;
+  height: 200px;
+  background-repeat:no-repeat;
+}
